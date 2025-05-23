@@ -1,0 +1,59 @@
+body {
+    font-family: Arial,  sans-serif; /* Familia de fuentes */
+    font-size: 11px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #f0f0f0; /* El color del fondo de la página web */
+    color: #5570e6; /* El color del texto*/ 
+    background-color:#22045a
+}
+h1 {
+    color: #7034fb; /* El color de la cabecera */
+    font-size: 36px; /* El tamaño de la fuente de la cabecera */
+    font-family: Georgia, Arial; /* La familia tipográfica utilizada en la cabecera */
+}
+h2 {
+    color: #7034fb; /* El color de la cabecera */
+    font-size: 24px; /* El tamaño de la fuente de la cabecera */
+    font-family: Helvetica, sans-serif, serif; /* La familia tipográfica utilizada en la cabecera */
+}
+h3 {
+    color: #7034fb; /* El color de la cabecera */
+    font-size: 18px; /* El tamaño de la fuente de la cabecera */
+    font-family: Helvetica, sans-serif, serif; /* La familia tipográfica utilizada en la cabecera */
+}
+p {
+    color: #aa89f7; /* El color de la cabecera */
+    font-size: 14px; /* El tamaño de la fuente de la cabecera */
+    font-family: Helvetica, sans-serif, serif; /* La familia tipográfica utilizada en la cabecera */
+}
+ul {
+    color: #aa89f7; /* El color de la cabecera */
+    font-size: 19px; /* El tamaño de la fuente de la cabecera */
+    font-family: Helvetica, sans-serif, serif; /* La familia tipográfica utilizada en la cabecera */
+}
+@keyframes color-change {
+    0% {
+      color: rgb(255, 255, 255);
+    }
+  
+    50% {
+      color: rgb(196, 232, 254);
+    }
+  
+    100% {
+      color: rgb(198, 198, 255);
+    }
+}
+
+h1:hover {
+    animation: color-change 3s infinite;
+}
+
+p:hover {
+    animation: color-change 3s infinite;
+}
+ul:hover {
+    animation: color-change 3s infinite;
+}
+h2:hover {
+    animation: color-change 3s infinite;
+}
